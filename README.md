@@ -37,8 +37,14 @@ Common Name (eg: your user, host, or server name) [Easy-RSA CA]:mongoadmin
 CA creation complete and you may now import and sign cert requests.
 Your new CA certificate file for publishing is at:
 /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/ca.crt
+```
+
+Remove the passphrase on the key (so that this project can be shared)
 
 ```
+openssl rsa -in ca.key -out ca-unenc.key
+``` 
+
 
 ### Import Request
 
