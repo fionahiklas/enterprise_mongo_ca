@@ -7,17 +7,17 @@ default_ca	= CA_default		# The default ca section
 ####################################################################
 [ CA_default ]
 
-dir		= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki	# Where everything is kept
-certs		= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki			# Where the issued certs are kept
-crl_dir		= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki			# Where the issued crl are kept
-database	= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/index.txt	# database index file.
-new_certs_dir	= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/certs_by_serial	# default place for new certs.
+dir		= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki	# Where everything is kept
+certs		= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki			# Where the issued certs are kept
+crl_dir		= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki			# Where the issued crl are kept
+database	= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/index.txt	# database index file.
+new_certs_dir	= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/certs_by_serial	# default place for new certs.
 
-certificate	= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/ca.crt	 	# The CA certificate
-serial		= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/serial 		# The current serial number
-crl		= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/crl.pem 		# The current CRL
-private_key	= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/private/ca.key	# The private key
-RANDFILE	= /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/.rand		# private random number file
+certificate	= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/ca.crt	 	# The CA certificate
+serial		= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/serial 		# The current serial number
+crl		= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/crl.pem 		# The current CRL
+private_key	= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/private/ca.key	# The private key
+RANDFILE	= /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/.rand		# private random number file
 
 x509_extensions	= basic_exts		# The extensions to add to the cert
 

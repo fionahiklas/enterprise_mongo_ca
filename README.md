@@ -46,7 +46,7 @@ openssl rsa -in ca.key -out ca-unenc.key
 ``` 
 
 
-### Import Request
+### Import Server Request
 
 ```
 easyrsa import-req ../enterprise_mongo_server/pki/reqs/mongoserver.req mongoserver
@@ -92,4 +92,47 @@ Data Base Updated
 Certificate created at: /home/fiona/wd/dwp/cis/enterprise_mongo_ca/pki/issued/mongoserver.crt
 ```
 
+
+### Import Client Request
+
+```
+easyrsa import-req ../enterprise_mongo_client/pki/reqs/mongoclient.req mongoclient
+```
+
+### Sign Request 
+
+Signing this as a server certificate
+
+```
+easyrsa sign-req client mongoclient
+
+Using SSL: openssl OpenSSL 1.1.0g  2 Nov 2017
+
+
+You are about to sign the following certificate.
+Please check over the details shown below for accuracy. Note that this request
+has not been cryptographically verified. Please be sure it came from a trusted
+source or that you have verified the request checksum with the sender.
+
+Request subject, to be signed as a client certificate for 1080 days:
+
+subject=
+    commonName                = mongoclient
+
+
+Type the word 'yes' to continue, or any other input to abort.
+  Confirm request details: yes
+Using configuration from /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/safessl-easyrsa.cnf
+Check that the request matches the signature
+Signature ok
+The Subject's Distinguished Name is as follows
+commonName            :ASN.1 12:'mongoclient'
+Certificate is to be certified until Feb  4 12:26:53 2022 GMT (1080 days)
+
+Write out database with 1 new entries
+Data Base Updated
+
+Certificate created at: /home/fiona/wd/dwp/cis/mongo_enterprise_ssl/enterprise_mongo_ca/pki/issued/mongoclient.crt
+
+```
 
