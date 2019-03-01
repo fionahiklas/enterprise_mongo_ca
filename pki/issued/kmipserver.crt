@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            92:6e:45:b0:05:eb:7e:46:93:ea:1f:38:a7:b6:b6:e7
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=mongoadmin
+        Validity
+            Not Before: Feb 28 15:47:14 2019 GMT
+            Not After : Feb 12 15:47:14 2022 GMT
+        Subject: CN=kmipserver
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b9:ea:cb:ec:87:1d:2d:c7:07:25:53:6b:83:46:
+                    6b:b6:82:d1:0c:a5:22:fa:ee:d9:51:5d:96:ba:4b:
+                    b0:ab:c7:82:7f:38:0a:ec:b9:07:9a:6d:16:bf:51:
+                    e6:6f:f1:92:34:28:98:a9:15:e5:09:0b:68:f8:e7:
+                    77:ad:f0:e7:97:fc:7b:c1:66:45:6d:9c:1d:6a:55:
+                    ef:80:5c:06:65:98:e4:e9:95:c0:70:1c:18:04:5e:
+                    b2:a6:1c:56:6c:59:cb:35:49:d8:c9:38:51:97:d2:
+                    17:8e:74:b9:90:c8:3e:e6:19:01:b3:04:76:c9:03:
+                    33:34:dd:d6:98:cb:d6:84:cc:91:91:fe:fb:ff:71:
+                    04:79:fe:24:2f:8d:e8:b1:32:eb:97:7b:e0:0c:12:
+                    cd:45:da:2e:bf:4e:79:36:b5:2d:ba:f3:eb:bb:42:
+                    c1:f1:0a:fe:6a:0c:94:93:b1:72:b9:1f:51:0f:1e:
+                    2f:b8:8b:75:14:fc:ff:79:d0:bd:26:b4:ff:39:06:
+                    b8:35:69:b2:94:6d:22:00:5f:71:97:df:6f:d6:b1:
+                    08:2e:d2:cd:5d:ed:ed:51:9a:59:4b:ce:7a:f9:9e:
+                    e3:b4:93:53:f8:ed:5b:24:66:56:8a:f5:59:b8:a6:
+                    22:61:0c:31:53:a1:78:13:e1:0f:bb:fd:48:5a:31:
+                    ff:4f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                D8:A8:4A:1C:80:1C:6F:10:C6:26:B1:63:96:11:0F:8A:FA:76:31:89
+            X509v3 Authority Key Identifier: 
+                keyid:90:B8:CC:DD:80:20:1C:A7:63:8D:89:3C:B8:71:50:AD:3B:B6:A8:58
+                DirName:/CN=mongoadmin
+                serial:86:C8:79:EA:97:D9:FE:7C
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:kmipserver
+    Signature Algorithm: sha256WithRSAEncryption
+         00:2c:b0:a6:0e:4d:da:64:92:b7:54:84:9b:64:f0:ae:c8:2a:
+         13:9a:57:e4:6a:f1:89:88:1f:9f:ac:97:cb:b0:b3:0b:fd:04:
+         a9:c2:2f:e6:b7:18:fe:3c:3d:51:98:14:31:d7:a6:ac:c1:a8:
+         a5:09:9b:ae:08:58:86:9f:f0:86:22:70:df:11:40:77:38:17:
+         b2:87:60:7b:74:d8:fc:99:b3:b9:4b:69:cf:3b:5c:78:f1:fb:
+         fe:3f:9d:55:28:32:0f:db:50:7f:0f:9d:1c:d0:2b:a7:dc:48:
+         6d:54:d1:b8:2a:4b:83:b7:fc:4f:f4:84:6f:8a:44:97:11:25:
+         e2:ea:7d:32:65:47:76:2e:81:c2:6c:ce:9e:6f:a6:b7:f1:18:
+         ce:7e:58:fa:66:1e:71:03:a0:f0:09:7f:1a:c7:19:66:c5:b4:
+         3d:0b:28:37:a9:42:ed:ea:af:c2:bc:67:95:ed:74:8a:fd:72:
+         5f:e9:8f:0a:49:d2:bc:eb:98:db:1a:c1:cb:6f:79:2e:f4:5b:
+         b1:33:bc:cf:3b:35:71:41:96:81:ce:d8:94:15:0d:05:f5:f6:
+         0c:38:30:fe:1d:77:74:38:cc:06:b8:19:c7:e2:30:91:8d:ea:
+         60:2d:20:9d:b1:51:64:19:e7:f8:35:68:e7:a3:35:bf:b6:36:
+         f5:03:55:18
+-----BEGIN CERTIFICATE-----
+MIIDYzCCAkugAwIBAgIRAJJuRbAF635Gk+ofOKe2tucwDQYJKoZIhvcNAQELBQAw
+FTETMBEGA1UEAwwKbW9uZ29hZG1pbjAeFw0xOTAyMjgxNTQ3MTRaFw0yMjAyMTIx
+NTQ3MTRaMBUxEzARBgNVBAMMCmttaXBzZXJ2ZXIwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC56svshx0txwclU2uDRmu2gtEMpSL67tlRXZa6S7Crx4J/
+OArsuQeabRa/UeZv8ZI0KJipFeUJC2j453et8OeX/HvBZkVtnB1qVe+AXAZlmOTp
+lcBwHBgEXrKmHFZsWcs1SdjJOFGX0heOdLmQyD7mGQGzBHbJAzM03daYy9aEzJGR
+/vv/cQR5/iQvjeixMuuXe+AMEs1F2i6/Tnk2tS268+u7QsHxCv5qDJSTsXK5H1EP
+Hi+4i3UU/P950L0mtP85Brg1abKUbSIAX3GX32/WsQgu0s1d7e1RmllLznr5nuO0
+k1P47VskZlaK9Vm4piJhDDFToXgT4Q+7/UhaMf9PAgMBAAGjga0wgaowCQYDVR0T
+BAIwADAdBgNVHQ4EFgQU2KhKHIAcbxDGJrFjlhEPivp2MYkwRQYDVR0jBD4wPIAU
+kLjM3YAgHKdjjYk8uHFQrTu2qFihGaQXMBUxEzARBgNVBAMMCm1vbmdvYWRtaW6C
+CQCGyHnql9n+fDATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwFQYD
+VR0RBA4wDIIKa21pcHNlcnZlcjANBgkqhkiG9w0BAQsFAAOCAQEAACywpg5N2mSS
+t1SEm2TwrsgqE5pX5GrxiYgfn6yXy7CzC/0EqcIv5rcY/jw9UZgUMdemrMGopQmb
+rghYhp/whiJw3xFAdzgXsodge3TY/JmzuUtpzztcePH7/j+dVSgyD9tQfw+dHNAr
+p9xIbVTRuCpLg7f8T/SEb4pElxEl4up9MmVHdi6BwmzOnm+mt/EYzn5Y+mYecQOg
+8Al/GscZZsW0PQsoN6lC7eqvwrxnle10iv1yX+mPCknSvOuY2xrBy295LvRbsTO8
+zzs1cUGWgc7YlBUNBfX2DDgw/h13dDjMBrgZx+IwkY3qYC0gnbFRZBnn+DVo56M1
+v7Y29QNVGA==
+-----END CERTIFICATE-----
